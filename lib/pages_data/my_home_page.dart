@@ -75,8 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
             padding: const EdgeInsets.symmetric(vertical: 8.0),
             child: GestureDetector(
               onTap: () {
-                // Navigator.of(context).push(MaterialPageRoute(
-                //     builder: (_) => DetailsPage(articlesData: article[index])));
+                
               },
               child: ListTile(
                 leading: Image.network(
